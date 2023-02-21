@@ -21,8 +21,8 @@ br {color: #333333;
 
 .box-one {
       background-color: #F5F5F5;
+      border: 15px solid #2AB7CA;
       width: 150px;
-      border: 15px #2AB7CA;
       padding: 50px;
       margin: 20px;
     }
