@@ -1,20 +1,11 @@
-.nav {
-    background-color: #2D2A32;
-    color: #F5F5F5; 
-    list-style: none;
-    text-align: right;
-    padding: 20px 0 20px 0
-}
-.nav > li {
-    display: inline-block;
-    padding-right: 50px;
-}
-
-.nav > li > a {
-   text-decoration: none;
-   color: #F5F5F5;
-}
-
-.nav > li > a:hover {
-    color: #2AB7CA;
-}
+ul li { 
+    display: inline;
+    border: none; 
+    text-decoration: none; 
+    text-align: right; 
+    width: 150px; 
+    list-style-type: none; 
+    padding: 35px 35px 35px 35px; 
+    margin-top: 0; 
+    margin-left: 20px; 
+    }
