@@ -1,0 +1,20 @@
+.nav {
+    background-color: #2D2A32;
+    color: #F5F5F5; 
+    list-style: none;
+    text-align: right;
+    padding: 20px 0 20px 0
+}
+.nav > li {
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.nav > li > a {
+   text-decoration: none;
+   color: #F5F5F5;
+}
+
+.nav > li > a:hover {
+    color: #2AB7CA;
+}
