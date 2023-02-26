@@ -19,33 +19,21 @@
     .nav > li > a:hover {
         color: #2AB7CA;
     }
+    
+    
     .nav ul {
         display: flex;
-        justify-content: center;
         list-style: none;
-        margin: 0;
-        padding: 0;
-      }
-    .nav li {
-        margin: 0 10px;
-        padding: 10px 10px;
-        border: none
         position: relative;
-      }
-    .nav a {
-        text-decoration: none;
-        font-size: 100%;
-        color: #F5F5F5;
-      }
+    }
+    .nav ul li {
+        float: left;
+    }
     .nav ul ul {
+        display: none;
         position: absolute;
         top: 100%;
-        left: 0;
-        display: none;
-      }
+    }
     .nav ul li:hover > ul {
-        color: #2AB7CA;
-        display: flex;
-        flex-direction: column;
-      }
-      
+        display: block; 
+    }
