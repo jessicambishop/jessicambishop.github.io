@@ -25,6 +25,7 @@
     .nav ul {
         display: flex;
         justify-content: center;
+        flex-direction: column;
         padding: 0;
         margin: 0;
       }
@@ -36,6 +37,7 @@
       }
     .nav a {
         text-decoration: none;
+        font-family: arial;
         font-size: 100%;
         color: #F5F5F5;
       }
