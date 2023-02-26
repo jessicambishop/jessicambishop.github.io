@@ -21,10 +21,10 @@
         color: #2AB7CA;
     }
     
-    
+
     .nav ul {
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         flex-direction: column;
         padding: 0;
         margin: 0;
