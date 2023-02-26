@@ -13,6 +13,7 @@
     }
     .nav > li > a {
        text-decoration: none;
+       font-family: arial;
        font-size: 125%;
        color: #F5F5F5;
     }
@@ -23,23 +24,29 @@
     
     .nav ul {
         display: flex;
-        list-style: none;
-        position: relative;
         justify-content: center;
         padding: 0;
         margin: 0;
-    }
-    .nav ul li {
-        float: left;
-    }
+      }
+    .nav li {
+        margin: 0 10px;
+        padding: 10px 10px;
+        border: none
+        position: relative;
+      }
+    .nav a {
+        text-decoration: none;
+        font-size: 100%;
+        color: #F5F5F5;
+      }
     .nav ul ul {
-        display: none;
         position: absolute;
         top: 100%;
-    }
+        left: 0;
+        display: none;
+      }
     .nav ul li:hover > ul {
+        color: #2AB7CA;
         display: flex;
         flex-direction: column;
-        display: block; 
-        color: #2AB7CA;
-    }
+      }
