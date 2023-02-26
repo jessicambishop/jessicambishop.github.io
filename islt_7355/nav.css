@@ -20,7 +20,7 @@
         color: #2AB7CA;
     }
 
-    nav ul {
+    .nav ul {
         display: flex;
         justify-content: right;
         list-style: none;
@@ -28,31 +28,31 @@
         padding: 0;
       }
       
-      nav li {
+    .nav li {
         margin: 0 10px;
         padding: 5px 10px;
         border: 1px solid black;
         position: relative;
       }
       
-      nav a {
+    .nav a {
         text-decoration: none;
         color: black;
       }
       
-      nav ul ul {
+    .nav ul ul {
         position: absolute;
         top: 100%;
         left: 0;
         display: none;
       }
       
-      nav ul li:hover > ul {
+    .nav ul li:hover > ul {
         display: flex;
         flex-direction: column;
       }
       
-      nav ul {
+    .nav ul {
         display: flex;
         justify-content: center;
         list-style: none;
@@ -60,26 +60,26 @@
         padding: 0;
       }
       
-      nav li {
+    .nav li {
         margin: 0 10px;
         padding: 5px 10px;
         border: 1px solid black;
         position: relative;
       }
       
-      nav a {
+    .nav a {
         text-decoration: none;
         color: black;
       }
       
-      nav ul ul {
+    .nav ul ul {
         position: absolute;
         top: 100%;
         left: 0;
         display: none;
       }
       
-      nav ul li:hover > ul {
+    .nav ul li:hover > ul {
         display: flex;
         flex-direction: column;
       }
