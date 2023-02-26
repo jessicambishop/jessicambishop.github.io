@@ -19,8 +19,6 @@
     .nav > li > a:hover {
         color: #2AB7CA;
     }
-
-
     .nav ul {
         display: flex;
         justify-content: right;
@@ -31,7 +29,7 @@
     .nav li {
         margin: 0 10px;
         padding: 10px 10px;
-        border: 1px solid black;
+        border: none
         position: relative;
       }
       nav a {
