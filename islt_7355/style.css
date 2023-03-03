@@ -27,3 +27,9 @@ br {color: #333333;
       padding: 20px;
       margin: 20px;
     }
+
+h2 + p:first-letter{
+    font-size: 200%;
+    color: #333333;
+    font-weight: bold;
+}
