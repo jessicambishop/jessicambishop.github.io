@@ -1,4 +1,4 @@
-.nav {
+.menu {
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -11,12 +11,12 @@
   border: none;
 }
 
-.nav > ul{
+.menu > ul{
   padding: 0;
   list-style: none;
   background: #2D2A32;
 }
-.nav ul > li{
+.menu ul > li{
   display: inline-block;
   position: relative;
   line-height: 21px;
@@ -44,6 +44,7 @@ ul li ul.dropdown{
 ul li:hover ul.dropdown{
   display: flex;
   flex-direction: column;
+  colour: #F5f5f5
 }
 ul li ul.dropdown li{
   display: block;
