@@ -11,12 +11,12 @@
   border: none;
 }
 
-ul{
+.nav > ul{
   padding: 0;
   list-style: none;
   background: #2D2A32;
 }
-ul li{
+.submenu > ul > li{
   display: inline-block;
   position: relative;
   line-height: 21px;
@@ -37,6 +37,7 @@ ul li a:hover{
 ul li ul.dropdown{
   min-width: 100%; 
   background: #2D2A32;
+  
   display: none;
   position: absolute;
 }
