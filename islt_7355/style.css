@@ -6,15 +6,12 @@ p {color: #333333;
    font-size: 14pt;
     }
 
-li {color: #333333;
-   font: sans-serif;
-   font-size: 14pt;
-    }
+.list {color: #333333;
+    font: sans-serif;
+    font-size: 14pt;
+    list-style: circle;
+     }
 
-ol {color: #333333;
-   font: sans-serif;
-   font-size: 14pt;
-    }
 br {color: #333333;
    font: sans-serif;
    font-size: 14pt;
@@ -28,7 +25,7 @@ br {color: #333333;
       margin: 20px;
     }
 
-h2 + p:first-letter{
+h2 + p:first-letter {
     font-size: 200%;
     color: #333333;
     font-weight: bold;

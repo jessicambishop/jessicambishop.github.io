@@ -10,13 +10,12 @@
   padding: 20px 0 20px 0;
   border: none;
 }
-
-.menu > ul{
+.menu ul{
   padding: 0;
   list-style: none;
   background: #2D2A32;
 }
-.menu ul > li{
+ul li{
   display: inline-block;
   position: relative;
   line-height: 21px;
@@ -37,15 +36,18 @@ ul li a:hover{
 ul li ul.dropdown{
   min-width: 100%; 
   background: #2D2A32;
-  
   display: none;
   position: absolute;
 }
 ul li:hover ul.dropdown{
   display: flex;
   flex-direction: column;
-  colour: #F5f5f5
 }
 ul li ul.dropdown li{
   display: block;
 }
+.list {color: #333333;
+    font: sans-serif;
+    font-size: 14pt;
+    list-style: circle;
+     }
