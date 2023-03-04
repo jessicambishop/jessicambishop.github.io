@@ -27,9 +27,9 @@ br {color: #333333;
     }
 .box-two {
     border: none;
-    width: 750px;
+    width: 800px;
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
       }
 .box-two p:first-of-type:first-letter {
     font-size: 200%;
