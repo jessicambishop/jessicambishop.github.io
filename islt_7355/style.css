@@ -6,10 +6,11 @@ p {color: #333333;
    font-size: 14pt;
     }
 
-.list {color: #333333;
+.list {
+    list-style: circle;
+    color: #333333;
     font: sans-serif;
     font-size: 14pt;
-    list-style: circle;
      }
 
 br {color: #333333;
@@ -21,11 +22,16 @@ br {color: #333333;
       background-color: #F5F5F5;
       border: 20px solid #2AB7CA;
       width: 150px;
-      padding: 20px;
-      margin: 20px;
+      padding: 10px;
+      margin: 10px;
     }
-
-h2 + p:first-letter {
+.box-two {
+    border: none;
+    width: 750px;
+    padding: 20px;
+    margin: 20px;
+      }
+.box-two p:first-of-type:first-letter {
     font-size: 200%;
     color: #333333;
     font-weight: bold;
