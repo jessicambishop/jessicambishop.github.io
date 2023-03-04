@@ -6,8 +6,8 @@ p {color: #333333;
    font-size: 14pt;
     }
 
-.list {
-    list-style: circle;
+.list li  {
+    list-style: disc;
     color: #333333;
     font: sans-serif;
     font-size: 14pt;

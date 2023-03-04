@@ -15,7 +15,7 @@
   list-style: none;
   background: #2D2A32;
 }
-ul li{
+.submenu {
   display: inline-block;
   position: relative;
   line-height: 21px;
