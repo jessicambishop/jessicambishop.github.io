@@ -1,19 +1,21 @@
 h1 {color: #003366;
-    font: Arial;}
+    font-family: Arial, Helvetica, sans-serif;}
 
 p {color: #333333;
-   font: Arial;
-   font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    line-height: 1.5;
     }
 
-.list li  {
+.list li {
     list-style: disc;
     color: #333333;
-    font: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
+    line-height: 1.5;
      }
 br {color: #333333;
-   font: Arial;
+    font-family: Arial, Helvetica, sans-serif;
    font-size: 14pt;
     }
 
@@ -29,9 +31,9 @@ br {color: #333333;
     width: 800px;
     padding: 20px;
     margin: 10px;
-      }
+    }
 .box-two p:first-of-type:first-letter {
     font-size: 200%;
     color: #333333;
     font-weight: bold;
-}
+    }
