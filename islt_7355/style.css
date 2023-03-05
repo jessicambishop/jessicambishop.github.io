@@ -1,19 +1,19 @@
 h1 {color: #003366;
-    font: sans-serif;}
+    font: Arial;}
 
 p {color: #333333;
-   font: sans-serif;
+   font: Arial;
    font-size: 14pt;
     }
 
 .list li  {
     list-style: disc;
     color: #333333;
-    font: sans-serif;
+    font: Arial;
     font-size: 14pt;
      }
 br {color: #333333;
-   font: sans-serif;
+   font: Arial;
    font-size: 14pt;
     }
 
