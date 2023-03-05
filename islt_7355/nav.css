@@ -46,8 +46,3 @@ ul li:hover ul.dropdown{
 ul li ul.dropdown li{
   display: block;
 }
-.list {color: #333333;
-    font: sans-serif;
-    font-size: 14pt;
-    list-style: circle;
-     }
