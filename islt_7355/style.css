@@ -5,34 +5,34 @@ h1 {
 p {
     color: #333333;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14pt;
+    font-size: 100%;
     line-height: 1.5;
     }
 
 blockquote {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18pt;
+    font-size: 16px;
     }
 
 .list li {
     list-style: disc;
     color: #333333;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14pt;
+    font-size: 100%;
     line-height: 1.5;
      }
 
 br {
    color: #333333;
    font-family: Arial, Helvetica, sans-serif;
-   font-size: 14pt;
+   font-size: 100%;
     }
 
 .box-one {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14pt;
+    font-size: 100%;
     background-color: #F5F5F5;
-    border: 20px solid #2AB7CA;
+    border: 5px solid #2AB7CA;
     width: 40%;
     padding: 10px;
     margin: 10px;
