@@ -10,40 +10,57 @@ Developed: 2/1/23
 Tested: 3/4/23
 -->
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Template</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="nav.css">
+
+        <!--From sample code:
+            
+            <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">-->
+        
 </head>
 <body>
+    
     <nav>
-        <ul class="menu">
-            <li><a href="../islt_7355/index.html">Home</a></li>
-            <li><a href="../islt_7355/about.html">About</a>
-            <li class="submenu"><a href="../islt_7355/project.html">Project</a>
-                <ul class="dropdown">
+        <label id="hamburger">&#9776;</label>
+        <ul>
+            <li><a class="active" href="../islt_7355/index.html">Home</a></li>
+            <li><a href="../islt_7355/about.html">About</a></li>
+            <li><a href="../islt_7355/project.html">Project</a>
+                <ul id="mobileHide">
                     <li><a href="#">Link 1</a></li>
                     <li><a href="#">Link 2</a></li>
                     <li><a href="#">Link 3</a></li>
-                  </ul>
+                </ul>
             </li>
             <li><a href="../islt_7355/reflection.html">Reflection</a></li>
-            <li><a href="./islt_7355/#contact.html">Contact</a></li>
+            <li class="lastMobile"><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-<header>
-    <!--A logo or <h2> could go here (Ruvalcaba and Boemhm, p. 95).
-        -->
-</header>
+
 <main>
-<h1>ABC</h1>
-    <h2>XYZ</h2>
-    <p>DEF</p>
-   <ul>
-     <li>1</li>
-     <li>2</li>
-     <li>3</li>
-    </ul>
+    <header class="header">
+        <h1>Page Title</h1>
+    </header>
+
+    <!-- <section class="hero">
+            <!-- Hero! -->
+    </section> -->
+
+<div class="flex-container wrapper">
+    <section class="content">
+        <!-- Content! -->
+    </section>
+
+    <aside class="sidebar">
+    <!-- Sidebar content -->    
+    </aside>
+
+</div>
 </main>
-<footer><p>Copyright © 2023 Jessica M. Bishop. Send an email: <a href="mailto:jmbkbx@missouri.edu">jmbkbx@missouri.edu</a></p></footer>
+<footer class="footer">
+    <p>Copyright © 2023 Jessica M. Bishop. Send an email: <a href="mailto:jmbkbx@missouri.edu">jmbkbx@missouri.edu</a>
+</footer>
 </body>
 </html>
