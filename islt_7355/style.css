@@ -1,24 +1,24 @@
 @font-face { 
   font-family: Arvo, Serif;
   src: url(../islt_7355/fonts/Arvo/Arvo-Regular.ttf); 
-  }
+}
 
-  @font-face { 
-    font-family: Lato, Sans-Serif;
-    src: url(../islt_7355/fonts/Lato/Lato-Regular.ttf); 
-    }
+@font-face { 
+  font-family: Lato, Sans-Serif;
+  src: url(../islt_7355/fonts/Lato/Lato-Regular.ttf); 
+}
 
 header {
     display: inline;
     vertical-align:center;
 }
  
- h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   color: #2F4D6D;
   font-family: Arvo, Serif;
  }
 
- blockquote {
+blockquote {
   font-family: Lato, Sans-Serif;
   font-weight: bolder;
 }
@@ -151,11 +151,73 @@ main {
   margin: 10px;
 }
 
-@media screen and (min-width:640px) {
+/* Printing */
+@media print {
+  
+  /* Hide items */
+  img {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+
+  /* Global reset */
+  body {
+    font-family: serif;
+    font-size: 12pt;
+    line-height: 18pt;
+    background: none;
+    color: #000;
+  }
+
+  /* Layout reset */
+  main, .header, section, .content, .sidebar, .aside, .box-one, .footer {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: none;
+    color: #000;
+  }
+
+  /* Specifics */
+  h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    font-size: 14pt;
+    line-height: 18pt;
+    padding: 0;
+    margin: 0;
+  }
+
+  blockquote {
+    font-family: Lato, Sans-Serif;
+    font-size: 14pt;
+    padding: 0;
+    margin: 0;
+    }
+
+  footer a:link, footer a:visited {
+    color: #000;
+    background: none;
+    padding: 0;
+     }
+  
+  @page  { 
+    margin: 25mm 25mm 25mm 25mm;  
+  } 
+  
+ /* a::after {
+    content: " [" attr(href) "}";
+  } */
+
+}
+
+
+/* Responsive style */
+@media screen and (min-width: 640px) {
   .flex-container {
     display: flex;
   }
-}
     
   .content {
     flex:1;
@@ -170,3 +232,4 @@ main {
   /* .footer, .sidebar {
     border:1px solid #FED766;
     } */
+  }
