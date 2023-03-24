@@ -23,7 +23,7 @@ blockquote {
   font-weight: bolder;
 }
 
-button {
+.button {
   /*display: inline-flex;
   justify-content: space-around;*/
   border: 0;
@@ -40,23 +40,23 @@ button {
   cursor: pointer;
 }
 
-button a {
+.button a {
   color:#F5F5F5;
   text-decoration: none;
 }
 
-button:hover {
+.button:hover {
   background-color: #2F4D6D;
   transition: 0.7s;
 }
 
-button:focus {
+.button:focus {
   outline-color: transparent;
   outline-style:solid;
   box-shadow: 0 0 0 4px #2F4D6D;
 }
 
-button:focus {
+.button:focus {
   outline-color: transparent;
   outline-style:solid;
   box-shadow: 0 0 0 4px #2D2A32;
@@ -69,7 +69,7 @@ button:focus {
 } */
   
 *,:after,:before {
-  box-sizing:border-box
+  box-sizing: border-box;
 }
 
 html {
@@ -188,6 +188,12 @@ main {
     padding: 0;
     margin: 0;
   }
+
+  a:link, a:visited {
+    color: #000;
+    background: none;
+    padding: 0;
+     }
 
   blockquote {
     font-family: Lato, Sans-Serif;
