@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 
 blockquote {
   font-family: Lato, Sans-Serif;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .button {
@@ -135,13 +135,23 @@ main {
   width: 100%;
   padding: 50px;
   bottom: 0;
+  font-size: 12pt;
+  font-weight: bold;
   text-align: center;
-  background-color: #2D2A32;
-  color:#F5F5F5;
+  /*background-color: #2D2A32;*/
+  background-image: url("../islt_7355/images/whitetexture.jpg");
+  color:#2D2A32;
+
   }
 
 .footer a {
   color:#2AB7CA;
+  }
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
   }
 
 .box-one {
