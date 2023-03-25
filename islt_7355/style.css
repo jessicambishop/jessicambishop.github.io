@@ -131,7 +131,7 @@ main {
 } */
 
 .footer { 
-  height: 200px;
+  height: 250px;
   width: 100%;
   padding: 50px;
   bottom: 0;
@@ -152,6 +152,11 @@ main {
     width: 20px;
     height: 20px;
     margin: 0 5px;
+    transition: all .2s ease-in-out; 
+  }
+
+.social-icon:hover {
+    transform: scale(1.5);
   }
 
 .box-one {
