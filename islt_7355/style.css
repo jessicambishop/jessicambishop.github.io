@@ -226,6 +226,8 @@ main {
   @page  { 
     margin: 25mm 25mm 25mm 25mm;  
   } 
+
+
   
  /* a::after {
     content: " [" attr(href) "}";
@@ -250,7 +252,7 @@ main {
     background: #F5F5F5;
   }
 
-  .video {
+  video {
     max-width: 100%;
     height: auto;
   }
