@@ -1,26 +1,76 @@
-
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <title>testing your website</title>
+<!DOCTYPE html><html lang="en-US">
+    <head>
+    <!-- 
+    Title: Home Page
+    Use: To provide context and information about the author
+    Author: Jessica M. Bishop
+    School/Term: University of Missouri, Spring 2023
+    Developed: 1/31/2023
+    Tested: 4/9/2023
+    -->
     <meta charset="utf-8">
-</head>
-<body>
-<p style="text-align: center; font-size: 18pt;">This webpage is to help you test uploading, viewing, and editing while using your IDE setup.</p>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="../islt_7355/favicon.ico">
+
+
+    <!-- Attribution
+
+Mail <a target="_blank" href="https://icons8.com/icon/6h0SHc9Rk376/mailbox">Mailbox</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+Phone <a target="_blank" href="https://icons8.com/icon/CDBUrtS3xT1f/rotary-dial-telephone">Rotary Dial Telephone</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/tNIlxNUlIry8/windrose">Windrose</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+-->
+
+    </head>
+
+    <body>
+        <nav>
+            <img src="logo.png" class="logo" alt="Jessica M. Bishop"> 
+            <label id="hamburger">&#9776;</label>
+            <ul>
+                <li><a class="active" href="../islt_7355/index.html">Home</a></li>
+                <li><a href="../islt_7355/about.html">About</a></li>
+                <li><a href="../islt_7355/project.html">Project</a>
+                    <ul id="mobileHide">
+                        <li><a href="../islt_7355/project.html#section-1">Learner-Centered Instructional Content</a></li>
+                        <li><a href="../islt_7355/project.html#section-2">Wayback Machine Redesign</a></li>
+                        <li><a href="../islt_7355/project.html#section-3">OER Adoption Strategies</a></li>
+                    </ul>
+                <li><a href="../islt_7355/reflection.html">Reflection</a></li>
+                <li class="lastMobile"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    <header>
+        <div class="hero-2">
+            <h1 class="reflect">Hi, I'm Jessica! <br>I <u>design</u> and <u>write</u> instructional content.</h1>
+        </div>
+        <br>
+        <div class="scroll-down"></div>
+    </header> 
+
+<main>
+<div class="flex-container wrapper">
     
-<p>In this code, you will find a few different HTML tags and elements that we will discuss more in Week 2.</p>
-    <p style="color:chocolate;">You can do <span style="font-weight: 600; text-decoration: underline;"> a great many things</span> with <span style="font-size: 14pt; color: deeppink;">only HTML and CSS alone</span>, such as changing the <em>color</em> of this font. And even changing the <span style="font-family: cursive; color:blueviolet;"> type of font presented!</span></p>
-    <p>We can change any number of things, much like a Word Processor:</p>
-    <ul>
-    <li>Font Type</li>
-        <li>Font Weight</li>
-        <li>Font Size</li>
-        <li>Font Color</li>
-        <li>Font Emphasis (underline, italics, etc.)</li>
-        <li>Text Alignment</li>
-    </ul>
-    <p> Now you try! </p>
-    <p style="text-align: right; font-weight: bold; font-size: 20pt;"> Replace this text with a sentence of your own and re-save the file.</p>
-    
+    <section class="content-2">
+    <h2>Welcome to My LTD Portfolio!</h2>
+    <p>This website highlights my experience as a graduate student of the Learning Technologies and Design (LTD) program and User Experience and Usability (UXU) graduate certificate at the University of Missouri. This site aims to highlight my work that best exemplifies the LDT program and UXU certificate competencies.</p>
+    <br>
+    <h2>My Learning Journey</h2>
+    <p>The LTD program and UXU certificate provided opportunities to improve my design and development skills, provide feedback to and collaborate with my peers, immerse in real-life learning scenarios, and showcase my studies of interest. It allowed me to improve my evaluation and analysis skills and showed me how great design comes from data collection, pilot testing, and iteration.</p>
+    <p>I chose the work I’m most proud of as I’ve worked toward the program and certificate competencies. This site should help you gain a better understanding of my skills.</p>
+<br><br>
+</section>
+</div>
+</main>
+<footer class="footer">
+    <p><img src="../islt_7355/icons/icons8-mail.png" class="social-icon" alt="mail icon"> <a href="mailto:jmbkbx@missouri.edu">jmbkbx@missouri.edu</a> | <img src="../islt_7355/icons/icons8-phone.png" class="social-icon" alt="phone icon"> 1-888-888-8888</p>
+    <p>Copyright © 2023 Jessica M. Bishop.</p> 
+</footer>
 </body>
 </html>
