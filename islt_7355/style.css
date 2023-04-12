@@ -231,7 +231,7 @@ td, th {
 }
 
 .styled-table tr:nth-child(even) {
-  background-color: #F5F5F5;
+  background-color: lightgray;
 } */
 
 .styled-table .tfoot-1 tr {
@@ -371,7 +371,7 @@ tr:nth-child(even) {
 }
 
 
-/* Responsive style */
+/* Responsive - Tablet */
 
 @media screen and (min-width: 640px) {
   .flex-container {
@@ -393,4 +393,28 @@ tr:nth-child(even) {
     height: auto;
   }
   
+
+
+  }
+
+
+  /* Responsive - Phone */
+
+
+
+
+  @media only screen and (max-width: 1250px) {
+    .styled-table {
+      width: 50%;
+      margin-left: 25%;
+      margin-right: 25%;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .styled-table {
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
   }
