@@ -409,11 +409,11 @@ tr:nth-child(even) {
     }
   }
 
-@media only screen and (max-width: 479px) {
+/* @media only screen and (max-width: 479px) {
     .styled-table {
       table-layout: auto;
     }
-    }
+    }*/
 
 
   /* Responsive - Phone */
