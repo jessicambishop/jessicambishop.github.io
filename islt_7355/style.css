@@ -114,6 +114,12 @@ main {
   }
 
 .reflect {
+  color: #F5F5F5;
+  padding: 100px;
+  text-align: center;
+}
+
+.reflect-2 {
   color: #2F4D6D;
   padding: 100px;
   text-align: center;
@@ -177,12 +183,10 @@ hr.rounded-2 {
   margin: 10px;
 }
 
-body {background-color:#2D2A32; }
-
-.scroll-down {
+header .scroll-down {
   position: absolute;
   left: 50%;
-  bottom: 10px;
+  bottom: 50px;
   display: block;
   text-align: center;
   font-size: 20px;
@@ -397,13 +401,7 @@ tr:nth-child(even) {
 
   }
 
-
-  /* Responsive - Phone */
-
-
-
-
-  @media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1250px) {
     .styled-table {
       width: 50%;
       margin-left: 25%;
@@ -411,10 +409,11 @@ tr:nth-child(even) {
     }
   }
 
-  @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 479px) {
     .styled-table {
-      width: 90%;
-      margin-left: 5%;
-      margin-right: 5%;
+      width: 100%;
     }
-  }
+    }
+
+
+  /* Responsive - Phone */
