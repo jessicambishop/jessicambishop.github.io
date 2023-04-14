@@ -233,7 +233,7 @@ td, th {
   background-color: lightgray;
 } */
 
-.styled-table .tfoot-1 tr {
+.styled-table .tfoot-1 {
   background-color: #2F4D6D;
   color:#F5F5F5;
 }
