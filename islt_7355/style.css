@@ -238,8 +238,9 @@ td, th {
   color:#F5F5F5;
 }
 
-/*
-tr {
+/* Button */
+
+/* tr {
   border-bottom: 1px solid #2F4D6D;
 }
 
@@ -301,6 +302,61 @@ tr:nth-child(even) {
 }
 
 */
+
+/* Contact Form */
+
+.contact-container {
+  border-radius: 5px;
+  background-color:  #2D2A32;
+  color: #F5F5F5;
+  font-family: Lato, Sans-Serif;
+  padding: 30px;
+  margin: 0 auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  max-width: 500px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #2AB7CA;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+input[type=email] {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #2AB7CA;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #2F4D6D;
+  color: #F5F5F5;
+  font-family: Lato, Sans-Serif;
+  font-weight: bold;
+  padding: 15px 22px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #2AB7CA;
+  color: #F5F5F5;
+  font-family: Lato, Sans-Serif;
+  font-weight: bold;
+}
+
 
 /* Printing */
 @media print {
@@ -369,8 +425,25 @@ tr:nth-child(even) {
 
 }
 
+/* Responsive - Computer */
+
 
 /* Responsive - Tablet */
+
+@media only screen and (max-width: 800px) {
+  .contact-container {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .styled-table {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
 
 @media screen and (min-width: 640px) {
   .flex-container {
@@ -392,13 +465,5 @@ tr:nth-child(even) {
     height: auto;
   }
 }
-
-@media only screen and (max-width: 800px) {
-    .styled-table {
-      width: 90%;
-      margin-left: 5%;
-      margin-right: 5%;
-    }
-  }
 
   /* Responsive - Mobile */
