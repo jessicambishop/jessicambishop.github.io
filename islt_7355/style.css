@@ -20,25 +20,25 @@ Mustard Yellow #FED766
   src: url(../islt_7355/fonts/Lato/Lato-Regular.ttf); 
 }
 
-header {
-    display: inline;
-    vertical-align: center;
-    background: #FFFFFF;
+body {
+  font-family: Lato, Sans-Serif;
+  color: #2D2A32;
+  margin: 0;
+  line-height: 1.75;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #2F4D6D;
   font-family: Arvo, Serif;
-  /* Need to adjust   padding-left: 30px; */
  }
 
- blockquote {
-  font-family: Lato, Sans-Serif;
-  font-size: 14pt;
-  font: bolder;
-  padding: 0;
-  margin: 0;
-  }
+
+/* Whole Site Layout - consider renaming sections per page for cleaner code */
+header {
+    display: inline;
+    vertical-align: center;
+    background: #FFFFFF;
+}
 
 /* .hangingindent {
   padding-left: 40px ;
@@ -53,20 +53,14 @@ html {
   font-size:100%
 }
 
-body {
-  font-family: Lato, Sans-Serif;
-  margin: 0;
-  line-height: 1.5;
-  color: #2D2A32;
-}
-
 main {
   background: #FFFFFF;
-  padding: 0px;
+  margin: 2% auto 20%;
+  padding: 0 2%;
   width: 95%;
   }
 
-.header .wrapper {
+.header  {
   margin: auto;
   max-width: 75rem;
 }
@@ -183,6 +177,14 @@ aside {
   border-radius: 15%;
 }
 
+blockquote {
+  font-family: Lato, Sans-Serif;
+  font-size: 14pt;
+  font: bolder;
+  padding: 0;
+  margin: 0;
+  }
+
 
 /* Projects Page */
 
@@ -244,12 +246,74 @@ td, th {
   background-color: lightgray;
 } */
 
-tfoot-1 {
+.tfoot-1 {
   background-color: #2F4D6D;
   color:#F5F5F5;
 }
 
+/* Button */
 
+/* tr {
+  border-bottom: 1px solid #2F4D6D;
+}
+
+th {
+  background-color: #2F4D6D;
+  color: #F5F5F5;
+}
+
+tr:nth-child(even) {
+  background-color: #F5F5F5;
+} */
+
+/* Might be removed based on instructor feedback
+
+.button-container {
+  background-color: #FFFFFF;
+  width: auto;
+  height: 200px;
+  padding: 25px 0px 25px 0px;
+}
+
+.button-container .button {
+  display: inline-flex;
+  border: 0;
+  border-radius: 0.25rem;
+  background: #2AB7CA;
+  color: #FFFFFF;
+  font-family: Lato, Sans-Serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.button a {
+  color:#F5F5F5;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #2F4D6D;
+  transition: 0.7s;
+}
+
+.button:focus {
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 4px #2F4D6D;
+}
+
+.button:focus {
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 4px #2D2A32;
+  transition: 0.7s;
+}
+*/
 
 /* Contact Form */
 
@@ -269,7 +333,6 @@ tfoot-1 {
 input[type=text], select, textarea {
   width: 100%;
   padding: 15px;
-  /*border: 2px solid #2AB7CA;*/
   border-radius: 5px;
   box-sizing: border-box;
   margin-top: 10px;
@@ -279,7 +342,6 @@ input[type=text], select, textarea {
 input[type=email] {
   width: 100%;
   padding: 15px;
-  /*border: 2px solid #2AB7CA;*/
   border-radius: 5px;
   box-sizing: border-box;
   margin-top: 10px;
@@ -360,9 +422,7 @@ input[type=submit]:hover {
     margin: 25mm 25mm 25mm 25mm;  
   } 
 
- /* Prints URLs - Handy code to consider
- 
- a::after {
+ /* a::after {
     content: " [" attr(href) "}";
   } */
 
@@ -378,19 +438,14 @@ input[type=submit]:hover {
     margin-left: 20%;
     margin-right: 20%;
   }
+}
+
+@media only screen and (max-width: 800px) {
   .styled-table {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
   }
-
-  .header, main, section {
-    text-align: left;
-    display: block;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
 }
 
 @media screen and (min-width: 640px) {
