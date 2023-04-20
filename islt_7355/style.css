@@ -34,6 +34,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Whole Site Layout - consider renaming sections per page for cleaner code */
+.logo {
+  width: 120px;
+  height: 115px;
+  padding: 0px 0px;
+  margin: 0 35px;
+}
+
 header {
     display: inline;
     vertical-align: center;
@@ -82,7 +89,7 @@ main {
   padding: 50px;
   bottom: 0;
   font-size: 12pt;
-  font-weight: bold;
+
   text-align: center;
   background-color: #2D2A32;
   color:#F5F5F5;
