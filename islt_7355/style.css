@@ -197,6 +197,10 @@ hr.rounded-2 {
   border-radius: 5px;
 }
 
+.responsive {
+  width: 95%;
+  height: auto;
+}
 
 /* Reflection Page */
 .hero-2 {
@@ -456,6 +460,7 @@ input[type=submit]:hover {
     flex:1;
     background:#FFFFFF;
   }
+  
 
   .sidebar {
     flex:0 1 300px;

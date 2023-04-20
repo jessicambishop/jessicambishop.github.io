@@ -58,7 +58,7 @@ nav a {
 }
 
 
-nav ul li ul li:hover { background: #000000; }
+nav ul li ul li:hover { background: #2D2A32; }
 
 /* Background color change on Hover */
 nav a:hover { 
@@ -205,7 +205,7 @@ li > a:only-child:after { content: ''; }
 
 	nav ul li {
 		display:block;
-		width: 94%;
+		width: 100%;
 	}
 
 }
