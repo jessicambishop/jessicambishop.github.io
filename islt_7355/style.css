@@ -116,26 +116,18 @@ main {
 
 .reflect {
   color: #F5F5F5;
-  padding: 100px;
+  padding: 25px;
   text-align: center;
   }
 
-.scroll-down {
-/*  position: absolute;  This seems to float in mobile for some reason?*/
-  left: 50%;
-  z-index: 100;
-  display: block;
-  text-align: center;
-}
-
-.scroll-down a {
+.reflect a {
   font-size: 30px;
   color:#F5F5F5; 
   text-decoration:none; 
   cursor:pointer;  
 }
 
-.scroll-down a:hover {
+.reflect a:hover {
   color:#F5F5F5; 
   text-decoration:none; 
 }
@@ -474,11 +466,3 @@ input[type=submit]:hover {
 }
 
   /* Responsive - Mobile */
-
-  @media only screen and (max-width: 600px) {
-  .reflect {
-    color: #F5F5F5;
-    padding: 25px;
-    text-align: center;
-    }
-  }
