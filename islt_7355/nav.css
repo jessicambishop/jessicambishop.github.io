@@ -103,7 +103,8 @@ li > a:only-child:after { content: ''; }
 		display: block;
 		padding: 0;
 		width: 100%;
-		text-align: center;
+		text-align: left;
+    /*was center above*/
 		float: none;
 	}
 
