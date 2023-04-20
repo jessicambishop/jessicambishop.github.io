@@ -124,7 +124,7 @@ li > a:only-child:after { content: ''; }
 		display: block;
 		background-color: #2D2A32;
 		padding:14px 20px;	
-		color:#FFF;
+		color:#F5F5F5;
 		font-size:17px;
 		text-decoration:none;
 		border:none;
@@ -163,14 +163,14 @@ li > a:only-child:after { content: ''; }
 	nav ul ul a,
   nav ul ul ul a{
 		padding:14px 20px;	
-		color:#FFF;
+		color:#F5F5F5;
 		font-size:17px; 
 	}
   
   
 	nav ul li ul li .toggle,
 	nav ul ul a {
-		background-color: #212121; 
+		background-color: #2D2A32; 
 	}
 
 	/* Hide Dropdowns by Default */
