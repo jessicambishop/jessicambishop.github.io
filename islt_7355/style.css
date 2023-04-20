@@ -115,6 +115,7 @@ main {
   }
 
 .reflect {
+  position: absolute;
   color: #F5F5F5;
   padding: 100px;
   text-align: center;
