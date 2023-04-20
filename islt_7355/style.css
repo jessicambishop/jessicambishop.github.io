@@ -128,7 +128,7 @@ main {
 }
 
 .reflect a:hover {
-  color:#F5F5F5; 
+  color:#2AB7CA; 
   text-decoration:none; 
 }
 
@@ -239,7 +239,7 @@ td, th {
 
 .styled-table tr:nth-child(even) {
   background-color: lightgray;
-} */
+}
 
 .tfoot-1 {
   background-color: #2F4D6D;
