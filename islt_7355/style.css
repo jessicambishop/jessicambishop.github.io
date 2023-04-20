@@ -430,6 +430,7 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 800px) {
   .contact-container {
+    width: 60%;
     margin-left: 20%;
     margin-right: 20%;
   }
@@ -453,7 +454,6 @@ input[type=submit]:hover {
     background:#FFFFFF;
   }
   
-
   .sidebar {
     flex:0 1 300px;
     background: #FFFFFF;
@@ -463,6 +463,10 @@ input[type=submit]:hover {
     max-width: 100%;
     height: auto;
   }
+}
+
+.contact-container {
+  width: 100%;
 }
 
   /* Responsive - Mobile */
