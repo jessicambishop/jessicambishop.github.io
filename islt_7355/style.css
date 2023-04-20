@@ -123,7 +123,6 @@ main {
 .scroll-down {
   position: absolute;
   left: 50%;
-  bottom: 150px;
   z-index: 100;
   display: block;
   text-align: center;
@@ -449,12 +448,6 @@ input[type=submit]:hover {
 }
 
 @media screen and (min-width: 640px) {
-  .reflect {
-    color: #F5F5F5;
-    padding: 50px;
-    text-align: center;
-    }
-  
   .flex-container {
     display: flex;
   }
