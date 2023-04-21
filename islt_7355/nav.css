@@ -108,6 +108,9 @@ li > a:only-child:after { content: ''; }
 	}
 
 	nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 		margin: 0;
 	}
 
@@ -163,7 +166,7 @@ li > a:only-child:after { content: ''; }
   nav ul ul ul a{
 		padding:14px 20px;	
 		color:#F5F5F5;
-		font-size:17px; 
+		font-size: 17px; 
 	}
   
   
@@ -175,7 +178,7 @@ li > a:only-child:after { content: ''; }
 	/* Hide Dropdowns by Default */
 	nav ul ul {
 		float: none;
-		position:static;
+		position: static;
 		color: #F5F5F5;
 		/* has to be the same number as the "line-height" of "nav a" */
 	}
@@ -203,7 +206,7 @@ li > a:only-child:after { content: ''; }
 @media all and (max-width : 330px) {
 
 	nav ul li {
-		display:block;
+		display: block;
 		width: 100%;
 	}
 
