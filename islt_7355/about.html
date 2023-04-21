@@ -29,23 +29,29 @@ Phone <a target="_blank" href="https://icons8.com/icon/CDBUrtS3xT1f/rotary-dial-
 <body>
     
     <nav>
-        
-        <label id="hamburger">&#9776;</label>
-        <ul>
-                         <!--  <li></li><a href="../islt_7355/index.html"><img src="logo.png" class="logo" alt="Jessica M. Bishop"></a>-->  
-            <li><a class="active" href="../islt_7355/index.html">Home</a></li>
-            <li><a href="../islt_7355/about.html">About</a></li>
-            <li><a href="../islt_7355/project.html">Project</a>
-                <ul id="mobileHide">
-                    <li><a href="../islt_7355/project.html#section-1">Learner-Centered Instructional Content</a></li>
-                    <li><a href="../islt_7355/project.html#section-2">Wayback Machine Redesign</a></li>
-                    <li><a href="../islt_7355/project.html#section-3">OER Adoption Strategies</a></li>
-                </ul>
-            </li>
-            <li><a href="../islt_7355/reflection.html">Reflection</a></li>
-            <li class="lastMobile"><a href="../islt_7355/contact.html">Contact</a></li>
-        </ul>
-    </nav>
+        <div id="logo"><a href="../islt_7355/index.html"><img src="logo.png" alt="Jessica M. Bishop" width="120" height="115"></a></div>
+        <label for="drop" class="toggle">&#9776;</label>
+        <input type="checkbox" id="drop">
+            <ul class="menu">
+                <li><a href="../islt_7355/index.html">Home</a></li>
+                <li>
+                  <li><a href="../islt_7355/about.html">About</a></li>
+                <li>
+                    <!-- First Tier Drop Down -->
+                    <label for="drop-1" class="toggle">Project +</label>
+                    <a href="../islt_7355/project.html">Project</a>
+                    <input type="checkbox" id="drop-1">
+                    <ul>
+                        <li><a href="../islt_7355/project.html#section-1">Learner-Centered Instructional Content</a></li>
+                        <li><a href="../islt_7355/project.html#section-2">Wayback Machine Redesign</a></li>
+                        <li><a href="../islt_7355/project.html#section-3">OER Adoption Strategies</a></li>
+                    </ul> 
+                </li>
+                <li>
+                <li><a href="../islt_7355/reflection.html">Reflection</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
         
     <header class="header">
         <h1>About Me</h1>
@@ -61,6 +67,7 @@ Phone <a target="_blank" href="https://icons8.com/icon/CDBUrtS3xT1f/rotary-dial-
             <p>I work on an eLearning team at a private university in Michigan. My prior experiences include an eclectic mix of retail, public libraries, technology, publishing, communications, and small business.</p>
         <br>
             <embed src="https://www.youtube.com/embed/qUmwpIpztrU" class=video width="426" height="240">
+
             <p><a href="https://youtu.be/qUmwpIpztrU"><strong>ISLT 7355 Video Resume</strong></a> [:52] <a href="../islt_7355/documents/transcript.docx">transcript</a></p> 
         <br>   
         <h2>Education</h2>

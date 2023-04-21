@@ -133,7 +133,7 @@ main {
 }
 
 .content-1 {
-  padding-top: 115px;
+  padding-top: 155px;
 }
 
 /* About Page */
@@ -434,6 +434,13 @@ input[type=submit]:hover {
     margin-left: 20%;
     margin-right: 20%;
   }
+
+  video {
+    max-width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -460,8 +467,10 @@ input[type=submit]:hover {
   }
 
   video {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 
