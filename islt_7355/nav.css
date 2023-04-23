@@ -7,6 +7,7 @@
 
 /* Giving a background-color to the nav container. */
 nav { 
+  font-family: Lato, Sans-Serif;
   height: 155px;
 	margin:0;
 	padding: 0;
@@ -20,6 +21,7 @@ nav {
 	padding: 0 30px;
 	float: left;
 	font-size: 20px;
+  line-height: 60px;
 }
 
 /* Since we'll have the "ul li" "float:left"
@@ -51,17 +53,14 @@ nav ul li {
 
 /* Styling the links */
 nav a {
-	display:block;
-	padding:14px 20px;	
+	display: block;
+	padding: 14px 20px;	
 	color:#F5F5F5;
-	font-size:17px;
-	text-decoration:none;
+	font-size: 17px;
+	text-decoration: none;
 }
 
-
-nav ul li ul li:hover { background: #2D2A32; }
-
-/* Background color change on Hover */
+/* Link color change on Hover */
 nav a:hover { 
 	  color: #2AB7CA;
 }
@@ -77,18 +76,16 @@ nav ul ul {
 	
 /* Display Dropdowns on Hover */
 nav ul li:hover > ul {
-	display:inherit;
+	display: inherit;
 }
 	
 /* Fisrt Tier Dropdown */
 nav ul ul li {
-	width:170px;
-	float:none;
-	display:list-item;
+	width: 170px;
+	float: none;
+	display: list-item;
 	position: relative;
 }
-
-
 	
 /* Change ' +' in order to change the Dropdown symbol */
 li > a:after { content:  ' +'; }
@@ -98,14 +95,13 @@ li > a:only-child:after { content: ''; }
 /* Media Queries
 --------------------------------------------- */
 
-@media all and (max-width : 768px) {
+@media all and (max-width: 768px) {
 
 	#logo {
 		display: block;
 		padding: 0;
 		width: 100%;
 		text-align: left;
-    /*was center above*/
 		float: none;
 	}
 
@@ -113,7 +109,7 @@ li > a:only-child:after { content: ''; }
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-		margin: 0;
+		margin: 10;
 	}
 
 	/* Hide the navigation menu by default */
@@ -130,14 +126,12 @@ li > a:only-child:after { content: ''; }
 		padding: 14px 20px;	
 		color:#F5F5F5;
 		font-size: 17px;
-		text-decoration:none;
-		border:none;
-    padding: 40px 25px 10px 0px;
-    margin: 0 15px 0 0;
+		text-decoration: none;
+		border: none;
 	}
 
 	.toggle:hover {
-		background-color: #2D2A32;
+		color: #2AB7CA;
 	}
 
 	/* Display Dropdown when clicked on Parent Lable */
@@ -162,7 +156,7 @@ li > a:only-child:after { content: ''; }
 
 	nav a:hover,
  	nav ul ul ul a {
-		background-color: #2D2A32;
+		color: #2AB7CA;
 	}
   
 	nav ul li ul li .toggle,
