@@ -109,7 +109,7 @@ li > a:only-child:after { content: ''; }
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-		margin: 10;
+		margin: 10px;
 	}
 
 	/* Hide the navigation menu by default */
