@@ -55,8 +55,6 @@ main, section {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  /* border: 1px solid #FED766;
-  color: #2D2A32; */
 }
 
 /* **** Footer **** */
@@ -372,11 +370,9 @@ input[type=submit]:hover {
     margin-right: 30%;
   }
 
-  video {
-    max-width: 90%;
-    height: auto;
-    margin-left: 5%;
-    margin-right: 5%;
+  .video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
   }
 
   
@@ -404,16 +400,11 @@ input[type=submit]:hover {
     flex:0 1 300px;
     background: #FFFFFF;
   }
-
-  video {
-    max-width: 100%;
-    height: auto;
-  }
 }
 
 .contact-container {
   width: 90%;
-  margin-left 0%;
+  margin-left: 0%;
   margin-right: 10%;
 }
 
