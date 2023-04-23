@@ -315,7 +315,7 @@ td, th {
   background-color: #2D2A32;
   color: #F5F5F5;
   font-family: Lato, Sans-Serif;
-  padding: 30px;
+  padding: 10px;
   margin: 0 auto;
   margin-left: 0%;
   margin-right: 5%;
@@ -368,8 +368,8 @@ input[type=submit]:hover {
 @media only screen and (max-width: 800px) {
   .contact-container {
     width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 30%;
   }
 
   video {
@@ -413,6 +413,7 @@ input[type=submit]:hover {
 
 .contact-container {
   width: 90%;
+  margin-left 0%;
   margin-right: 10%;
 }
 
