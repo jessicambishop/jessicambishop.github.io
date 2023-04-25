@@ -57,6 +57,28 @@ main, section {
   margin-right: 10%;
 }
 
+
+/* **** Return to Top - JavaScript **** */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #2F4D6D;
+  color: #F5F5F5;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #2AB7CA;
+}
+
 /* **** Footer **** */
 .footer { 
   height: 250px;
@@ -414,7 +436,7 @@ input[type=submit]:hover {
     .hero {
     width: 100%;
     height: 600px;
-    padding-top: 0px;
+    padding-top: 50px;
     left: 50%;
     margin-top: -50px;
     background-color: #2D2A32;

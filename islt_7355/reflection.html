@@ -32,6 +32,9 @@ Photo by <a href="https://unsplash.com/@adrienolichon?utm_source=unsplash&utm_me
     </head>
 <body>
     <nav>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
         <div id="logo"><a href="../islt_7355/index.html"><img src="logo.png" alt="Return to Home page" width="120" height="115"></a></div>
         <label for="drop" class="toggle">&#9776;</label>
         <input type="checkbox" id="drop">
@@ -149,6 +152,29 @@ Photo by <a href="https://unsplash.com/@adrienolichon?utm_source=unsplash&utm_me
     </table>
 </div>
 </main>
+
+<script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
 <footer class="footer">
     <p><img src="../islt_7355/icons/icons8-mail.png" class="social-icon" alt="mail icon"> <a href="mailto:jmbkbx@missouri.edu">jmbkbx@missouri.edu</a> | <img src="../islt_7355/icons/icons8-phone.png" class="social-icon" alt="phone icon"> 1-888-888-8888</p>
     <p>Copyright © 2023 Jessica M. Bishop.</p> 
